@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #0f0f0f;
+    border-bottom: 1px solid #333;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: #4caf50;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #555;
+    padding: 10px;
+}
+
+table th {
+    background-color: #1e1e1e;
+}
+
+#final-decision {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.header-content {
+    position: relative;
+}
+
+.logo-container {
+    position: absolute;
+    top: 10px;
+    left: 10px; /* Verschiebt das Logo und den Titel nach links */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-container img {
+    width: 40px; /* Größe des Logos */
+    height: auto;
+}
+
+.logo-container span {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}

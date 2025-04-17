@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equitrust - Aktienbewertung</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Verlinkung zu styles.css -->
+    <div class="header-content">
+        <div class="logo-container">
+            <img src="logo.png" alt="EquiTrust Logo">
+            <span>EquiTrust</span>
+        </div>
+    </div>
+</head>
+<body>
+    <header>
+        
+       
+    </header>
+    <main>
+        <section id="input-section">
+            <h2>Echtwerte eingeben</h2>
+            <form id="criteria-form">
+                <label for="sector-dropdown">Branche auswählen:</label>
+                <select id="sector-dropdown" required>
+                    <option value="">-- Bitte wählen Sie eine Branche --</option>
+                    <option value="Industrie">Industrie</option>
+                    <option value="Gesundheit">Gesundheit</option>
+                    <option value="Nicht-Basiskonsum">Nicht-Basiskonsum</option>
+                    <option value="Basiskonsumgüter">Basiskonsumgüter</option>
+                    <option value="Finanzen">Finanzen</option>
+                    <option value="Versorger">Versorger (Utilities)</option>
+                    <option value="Energie">Energie (Öl/Gas)</option>
+                    <option value="Technologie">Technologie</option>
+                    <option value="Telekommunikation">Telekommunikation</option>
+                    <option value="Grundstoffe">Grundstoffe (Materials)</option>
+                    <option value="Immobilien">Immobilien (REITs)</option>
+                </select>
+
+                <div id="criteria-inputs">
+                    <!-- Dynamische Eingabefelder werden hier eingefügt -->
+                </div>
+
+                <button type="submit">Bewerten</button>
+            </form>
+        </section>
+        <section id="results-section">
+            <h2>Ergebnisse</h2>
+            <table id="results-table">
+                <thead>
+                    <tr>
+                        <th>Kriterium</th>
+                        <th>Echtwert</th>
+                        <th>Kontrollwert</th>
+                        <th>Erfüllt</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Ergebnisse werden hier dynamisch eingefügt -->
+                </tbody>
+            </table>
+            <p id="final-decision"></p>
+        </section>
+    </main>
+    <script src="script.js"></script> <!-- Verlinkung zu script.js -->
+</body>
+</html>
